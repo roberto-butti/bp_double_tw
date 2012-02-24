@@ -1,5 +1,13 @@
 {
-  "require": {
-    "silex/silex": "*"
-  }
+    "name": "rbutti/bp_double_tw",
+    "description": "boilerplate twig twitter",
+    "require": {
+        "silex/silex": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Roberto B.",
+            "email": "rbutti@h-art.it"
+        }
+    ]
 }

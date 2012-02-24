@@ -2,7 +2,8 @@
     "name": "rbutti/bp_double_tw",
     "description": "boilerplate twig twitter",
     "require": {
-        "silex/silex": "dev-master"
+        "silex/silex": "dev-master",
+        "twig/twig": "dev-master"
     },
     "authors": [
         {

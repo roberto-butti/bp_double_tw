@@ -1,4 +1,25 @@
-README
+What is it?
+===========
+My personal Boilerplate with some cool tools:
+- Composer: to get some PHP packages on http://packagist.org/
+- Silex: nice PHP microframework http://silex.sensiolabs.org/
+- Twig: modern template engine for PHP http://twig.sensiolabs.org/
+- Initializr: HTML5 templates generator based on HTML5 boilerplate http://www.initializr.com/
+- Bootstrap Twitter 2: http://twitter.github.com/bootstrap/
 
-curl -s http://getcomposer.org/installer | php
+
+How to use
+==========
+- Clone this sources
+- get needed PHP packages with composer
+- customize your template (under views and views/pages)
+
+
+Install packages with composer
+==============================
+Install composer:
+$ curl -s http://getcomposer.org/installer | php
+
+Install packages with composer:
+$ php composer.phar install
 

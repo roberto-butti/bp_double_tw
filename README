@@ -10,7 +10,7 @@ My personal Boilerplate with some cool tools:
 
 How to use
 ==========
-- Clone this sources
+- Clone these sources
 - get needed PHP packages with composer
 - customize your template (under views and views/pages)
 

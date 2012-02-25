@@ -1,0 +1,24 @@
+{% extends "base.twig" %}
+
+{% block html_title %}Title{% endblock %}
+
+{% block content %}
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="span4">
+      <h2>This site</h2>
+       <p>this site is cool</p>
+      
+    </div>
+    <div class="span4">
+      <h2>About</h2>
+       <p>About us</p>
+      <p><a class="btn" href="{{ app.request.baseurl }}/page/about">View details &raquo;</a></p>
+   </div>
+    <div class="span4">
+      <h2>Contact</h2>
+      <p>Contact Us</p>
+      <p><a class="btn" href="{{ app.request.baseurl }}/page/contact">View details &raquo;</a></p>
+    </div>
+  </div>
+{% endblock %}
